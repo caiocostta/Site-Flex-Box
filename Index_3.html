@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Site Flex-Box</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=0" />
+        <link href="Assets/css/Style.css" rel="stylesheet"/>
+        
+        <script type="text/javascript">
+            window.onload = function(){
+                document.querySelector(".menuMobile").addEventListener("click", function(){
+                    if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                        ocument.querySelector(".menu nav ul").style.display = 'none';
+                    }else{
+                        document.querySelector(".menu nav ul").style.display = 'flex';
+                    }
+                });
+            };
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href=""><img src="assets/images/logo.png"/></a>
+                </div>
+                <div class="menu">
+                    <nav>
+                        <div class="menuMobile">
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                        </div>
+                        <ul>
+                            <li><a href="Index.html">HOME</a></li>
+                            <li><a href="Index_2.html">Home 2</a></li>
+                            <li class="active"><a href="Index_3.html">Home 3</a></li>
+                            <li><a href="Index_4.html">Home 4</a></li>
+                            <li><a href="Index_5.html">Home 5</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section id="banner">
+            <div class="container column">
+                <div class="banner_headline">
+                    <h1>Top Notch Experience</h1>
+                    <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+                </div>
+                <div class="banner_options">
+                    <div class="banner1">
+                        <div class="banner_title">Emergency Case</div>
+                        <div class="banner_desc">Some text</div>
+                        <a href="">Read More</a>
+                    </div>
+                    <div class="banner2">
+                        <div class="banner_title">Doctors Timetable</div>
+                        <div class="banner_desc">Some text</div>
+                        <a href="">Read More</a>
+                    </div>
+                    <div class="banner3">
+                        <div class="banner_title">Opening Hours</div>
+                        <div class="hours">
+                            <p>Monday - Friday</p>
+                            <p>8:00am - 17:00pm</p>
+                        </div>
+                        <div class="hours">
+                            <p>Saturday</p>
+                            <p>9:30am - 17:30pm</p>
+                        </div>
+                        <div class="hours">
+                            <p>Sunday</p>
+                            <p>9:30am - 03:00pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="geral">
+            <div class="container">
+                <section>
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest News</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        <article>
+                            <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 DEC 12</div>
+                                        <div class="news_coments">2</div>
+                                    </div>
+                                    <div class="news_thumb"><img src="./Assets/images/dr.jpg"/></div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="news_resume">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget maximus lorem. Morbi sagittis urna nulla, ac hendrerit lorem pharetra eget.
+                                        Pellentesque a neque non eros tempor dapibus at sed ligula. Donec vulputate sed augue eu ornare.
+                                    </div>
+                            </a>                           
+                        </article>
+                        <article>
+                            <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">18 JAN 12</div>
+                                        <div class="news_coments">2</div>
+                                    </div>
+                                    <div class="news_thumb"><img src="./Assets/images/dr.jpg"/></div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="news_resume">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget maximus lorem. Morbi sagittis urna nulla, ac hendrerit lorem pharetra eget.
+                                        Pellentesque a neque non eros tempor dapibus at sed ligula. Donec vulputate sed augue eu ornare.
+                                    </div>
+                            </a>                           
+                        </article>
+                        <article>
+                            <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">13 NOV 12</div>
+                                        <div class="news_coments">2</div>
+                                    </div>
+                                    <div class="news_thumb"><img src="./Assets/images/dr.jpg"/></div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="news_resume">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget maximus lorem. Morbi sagittis urna nulla, ac hendrerit lorem pharetra eget.
+                                        Pellentesque a neque non eros tempor dapibus at sed ligula. Donec vulputate sed augue eu ornare.
+                                    </div>
+                            </a>                           
+                        </article>
+                        <article>
+                            <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">25 OCT 12</div>
+                                        <div class="news_coments">2</div>
+                                    </div>
+                                    <div class="news_thumb"><img src="./Assets/images/dr.jpg"/></div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="news_resume">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget maximus lorem. Morbi sagittis urna nulla, ac hendrerit lorem pharetra eget.
+                                        Pellentesque a neque non eros tempor dapibus at sed ligula. Donec vulputate sed augue eu ornare.
+                                    </div>
+                            </a>                           
+                        </article>
+                    </div>
+                </section>
+                <aside>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Departaments</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="widget_box">
+                                <div>...</div>
+                                <div>...</div>
+                            </div>
+                        
+                            <div class="widget_box">
+                                <div>...</div>
+                                <div>...</div>
+                            </div>
+                            
+                            <div class="widget_box">
+                                <div>...</div>
+                                <div>...</div>
+                            </div>
+                        </div>
+                        <div class="widget_title">
+                            <div class="widget_title_text">Make An Appointment</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="widget_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                            <div class="widget_contact">
+                                <img src="assets/images/contact.png"/>
+                                <div class="contact">By Phone: <b>4002-8922</b></div>
+                                
+                            </div>
+                            <div class="widget_contact_bar"></div>
+                            <div class="widget_contact">
+                                <img src="assets/images/email.png"/>
+                                <div class="contact">By E-mail: <a href="">e-mail123@email.com</a></div>
+                            </div>
+                            <div class="widget_contact_bar"></div>
+                            <div class="widget_contact">
+                                <img src="assets/images/form.png"/>
+                                <div class="contact">or <a href="">fill in the form</a> on our contact page</div>
+                            </div>
+                            <div class="widget_contact_bar"></div>
+                        </div> 
+                    </div>                    
+                </aside>
+            </div>
+        </section>
+        <footer>
+            <div class="container flexcollumn">
+                <div class="footer_menu">
+                    <div class="fm_1">
+                        <div class="footer_menu_title">Health Insurance</div>
+                        <div class="footer_menu_desc">Here in medicenter we have individual</div>
+                    </div>
+                    <div class="fm_2">
+                        <div class="footer_menu_title">Medical Records</div>
+                        <div class="footer_menu_desc">Here in medicenter we have individual</div>
+                    </div>
+                    <div class="fm_3">
+                        <div class="footer_menu_title">Online Bill Pay</div>
+                        <div class="footer_menu_desc">Here in medicenter we have individual</div>
+                    </div>
+                </div>
+                <div class="footer_area">
+                    <div class="footer_area_item">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Medicenter Clinic</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="area_desc">
+                                Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.
+                            </div>
+                            <div class="area_contacts">
+                                <p>Medicenter Clinic</p>
+                                <p></p>
+                            </div>
+                            <div class="area_contacts">
+                                <p>33 Farlane Street</p>
+                                <p>+123 655 655</p>
+                            </div>
+                            <div class="area_contacts">
+                                <p>Keilor East</p>
+                                <p>+123 755 755</p>
+                            </div>
+                            <div class="area_contacts">
+                                <p>VIC 3033, Australia</p>
+                                <p class="text_white">medicenter@mail.com</p>
+                            </div>
+                            <div class="social_media">
+                                <img src="Assets/images/facebook.png"/>
+                                <img src="Assets/images/twitter.png"/>
+                                <img src="Assets/images/instagram.png"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_area_item">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest Post</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <p class="widget_desc">Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada.</p>
+                            <p class="widget_date">6 years ago</p>
+                            <p class="widget_desc">Lorem ipsum dolor sit amet, consectetur.</p>
+                            <p class="widget_date">6 years ago</p>
+                            <p class="widget_desc">Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada.</p>
+                            <p class="widget_date">6 years ago</p>
+                        </div>
+                    </div>
+                    <div class="footer_area_item">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest Tweets</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <p class="widget_twitter_desc">We've released new version (v14.4) of our Gymbase #Gym #Fitness #WordPress Theme. Please check at #Theme Forest t.co/8mEwDqlFTe</p>
+                            <p class="widget_date">2 days ago</p>
+                            <p class="widget_twitter_desc">We've released new version (v14.4) of our Gymbase #Gym #Fitness #WordPress Theme. Please check at #Theme Forest t.co/8mEwDqlFTe</p>
+                            <p class="widget_date">8 days ago</p>
+                            <p class="widget_twitter_desc">We've released new version (v14.4) of our Gymbase #Gym #Fitness #WordPress Theme. Please check at #Theme Forest t.co/8mEwDqlFTe</p>
+                            <p class="widget_date">3 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_copy">
+                    Copyright - All rights reserved
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
